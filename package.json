@@ -1,0 +1,23 @@
+{
+  "name": "data-directory",
+  "version": "1.0.0",
+  "description": "Recursively load a directory of YAML, JSON, and Markdown files into a JavaScript object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest && standard",
+    "test-watch": "jest --watch --notify --notifyMode=change --coverage",
+    "lint": "standard --fix"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "walk-sync": "^2.0.2"
+  },
+  "standard": {
+    "env": ["jest"]
+  }
+}
