@@ -55,7 +55,7 @@ module.exports = function dataDirectory (dir, opts = {}) {
           break
         case '.yaml':
         case '.yml':
-          set(data, key, yaml.safeLoad(fileContent))
+          set(data, key, yaml.safeLoad(fileContent, { filename }))
           break
         case '.md':
         case '.markdown':
