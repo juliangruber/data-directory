@@ -32,7 +32,7 @@ describe('data-directory', () => {
 
     // README is ignored by default
     expect('README' in dataDirectory(fixturesDir)).toBe(false)
-    
+
     // README can be included by setting empty ignorePatterns array
     expect('README' in dataDirectory(fixturesDir, { ignorePatterns })).toBe(true)
   })
