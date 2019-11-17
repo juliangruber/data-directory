@@ -1,7 +1,8 @@
 {
-  "name": "data-directory",
+  "name": "@github-docs/data-directory",
   "version": "1.0.0",
   "description": "Recursively load a directory of YAML, JSON, and Markdown files into a JavaScript object.",
+  "repository": "https://github.com/docs/data-directory",
   "main": "index.js",
   "scripts": {
     "test": "jest && standard",
